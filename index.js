@@ -30,33 +30,36 @@ ASSIGNMENT RULES
  Write the code to execute an addition (a sum) of the numbers 12 and 20.
 */
 
-12+20
+console.log(12+20)
 
 /* EXERCISE 4
  Create a variable named x and assign to it the number 12.
 */
 
-let x = 12
-console.log(x)
+let x =12
+console.log("\n",x)
 
 /* EXERCISE 5
  Create a variable called name and assign to it the string "John Doe".
 */
 
-let name="John Doe"
+let Name="John Doe"
+console.log("\n",Name)
 
 /* EXERCISE 6
  Execute a subtraction between the number 12 and the variable x you declared before (which is storing the value 12).
 */
 
-12-x
+let substract =12-x
+console.log("\n12-x equals:",substract)
+
 
 /* EXERCISE 7
  Create two variables: name1 and name2. Assign to name1 the string "john", and to name2 the string "John" (this one has a capital J!)
  Verify that name1 is different from name2 (HINT: check their equality to be false).
  Finally, verify that the equality between name1 and name2 becomes true if both are lowercase (without changing the value of name2).
 */
-
+console.log("\n-------Task n7-----------")
 let name1="john"
 let name2="John"
 name1 === name2
